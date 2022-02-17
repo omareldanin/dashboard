@@ -1,0 +1,11 @@
+.langs{
+    margin-left: 5px;
+    select{
+        border: none;
+        background: transparent;
+        
+    }
+    select:focus{
+        outline: none;
+    }
+}

@@ -1,0 +1,19 @@
+main{
+    background-color: rgb(233, 233, 233);
+    position: absolute;
+    top: 100px;
+    left: 260px;
+    right: 20px;
+    height: 80%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid rgb(216, 216, 216);
+}
+@media(max-width:768px){
+    main{
+        left: 20px;
+    }
+}

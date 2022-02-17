@@ -1,0 +1,21 @@
+{
+    "sideBarTitle":"apps & pages",
+    "sideBarHome":"Home",
+    "sideBarChat":"Chat",
+    "sideBarCompanies":"Companies",
+    "chatsHeader":"Chats",
+    "chatsButton":"send",
+    "chatPlaceHolder":"Enter Your Message",
+    "companyAddButton":"Add Company",
+    "companiesSearch":"search by name",
+    "companyName":"Name",
+    "companyDesc":"Description",
+    "companyRate":"Rate",
+    "companyLocation":"location",
+    "companyPhone":"phone",
+    "companyWebsite":"website",
+    "companyImage":"image",
+    "deleteMessage":"are you sure to Delete this item?"
+
+
+}

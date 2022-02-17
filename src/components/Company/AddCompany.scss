@@ -1,0 +1,53 @@
+.addCompany{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    .form{
+        margin-top: 0;
+        width: 100%;
+        img{
+            width: 140px;
+            height: 140px;
+            margin-bottom: 10px;
+        }
+        .form-select{
+            font-size: 12px;
+            margin-bottom: 10px;
+
+        }
+        textarea{
+            display: block;
+            width: 100%;
+            resize: none;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+        textarea:focus{
+            outline: none;
+            border: 1px solid #7267f054;
+        box-shadow:0px 0px 5px 0px #7367f0 !important ;
+        }
+        .cancel{
+            background-color: #ced4da;
+            margin-right: 5px;
+            color: #000;
+        }
+    }
+    button{
+        float: right;
+        width: 100px;
+    }
+}

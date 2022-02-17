@@ -1,0 +1,28 @@
+.msg{
+  width: 100%;
+  margin-bottom: 8px;
+  p{
+    max-width: 70%;
+    overflow-wrap: anywhere;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: fit-content;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow:0 4px 24px 0 rgb(34 41 47 / 10%);
+  }
+  .user{
+    background-color: #fff;
+    color: #6e6b7b;
+  }
+  .admin{
+    float: right;
+    background-image: linear-gradient( 80deg,#7367f0,#9e95f5);
+    color: #fff;
+  }
+}
+

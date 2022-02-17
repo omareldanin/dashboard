@@ -1,0 +1,88 @@
+.citiesList{
+    background-color: #fff;
+    height: 100%;
+    width: 100% ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px 0 40px 0;
+    .css-18lolh3-MuiDataGrid-root{
+        border: none;
+        height: 85%;
+    }
+    .css-okt5j6-MuiDataGrid-columnHeaders{
+        min-height: 0 !important;
+        line-height: 32px !important; 
+        top: 24px;
+        background-color: #f3f2f7;
+        color: #6e6b7b;
+        border-bottom: 1px solid #dfdfdf;
+    }
+    .css-18lolh3-MuiDataGrid-root .MuiDataGrid-cell--textLeft{
+        padding-left:20px;
+    }
+    .css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar .MuiTablePagination-actions {
+        margin-top: -10px;
+    }
+    svg{
+        path{
+            fill:#6e6b7b
+        }
+    }
+    .search{
+        border: 1px solid #dfdfdf;
+        padding: 5px;
+        margin-left: 10px;
+        width: 300px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .search:focus{
+        outline: none;
+    }
+    .addCity{
+        border: none;
+        background-image: linear-gradient( 80deg,#7367f0,#9e95f5);
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+        padding: 5px;
+        width: 120px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    }
+    .addCity:hover{
+        box-shadow: 0 0 6px 0px #6659f1;
+
+    }
+}
+.css-1b34haf-MuiDataGrid-footerContainer{display: none !important;}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+    padding: 0 !important;
+    a{
+        width: 100%;
+    text-decoration: none;
+    padding: 6px 10px;
+    color: inherit;
+    }
+}
+
+@media(max-width:490px){
+    .citiesList .search{
+        width: 50%;
+    }
+}

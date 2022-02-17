@@ -1,0 +1,47 @@
+.companyDetails{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    img{
+        width: 100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        height: 250px;
+    }
+    .companyInfo{
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+        h3{
+            color:#4d4696
+        }
+        .rate{
+            svg{
+                margin-right: 5px;
+                path{
+                    fill:rgb(255, 223, 43)
+                }
+            }
+            margin-bottom: 10px;
+        }
+        span{
+            font-weight: bold;
+        }
+    }
+    .description{
+        margin-top: 10px;
+        h4{
+            color:#4d4696
+
+        }
+    }
+}

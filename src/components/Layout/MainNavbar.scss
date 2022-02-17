@@ -1,0 +1,124 @@
+nav{
+    position: fixed;
+    top: 20px;
+    left: 260px;
+    right: 20px;
+    height: 60px;
+    background-color: #fff;
+    z-index: 55;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border:1px solid rgba(255, 255, 255, 0.959) ;
+    box-shadow:0 4px 24px 0 rgb(34 41 47 / 10%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color:#6e6b7b;
+    .adminInfo{
+        display: flex;
+        align-items: center;
+        .adminImage{
+            width: 40px;
+            height: 40px;
+            border-radius:50% ;
+            overflow: hidden;
+            -webkit-border-radius:50% ;
+            -moz-border-radius:50% ;
+            -ms-border-radius:50% ;
+            -o-border-radius:50% ;
+            img{
+                width: 100%;
+            }
+        }
+        .adminName{
+            margin-right: 10px;
+            text-align: end;
+            font-size: 12px;
+            .name{
+                font-weight: bold;
+                font-size: 13px;
+                color:#6e6b7b;
+            }
+            p{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .options{
+        display: flex;
+        .logout{
+            background-image: linear-gradient( 80deg,#7367f0,#9e95f5);
+            color: #fff;
+            padding: 5px;
+            font-size: 12px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            transition: all 0.2s ease-out;
+            cursor: pointer;
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition: all 0.2s ease-out;
+            -ms-transition: all 0.2s ease-out;
+            -o-transition: all 0.2s ease-out;
+            span{
+                margin-left: 5px;
+            }
+            path{
+                fill:#fff
+            }
+        }
+        .logout:hover{
+        box-shadow: 0 0 6px 0px #6659f1;
+            
+        }
+        div{
+            margin-right: 10px;
+        }
+        .notfications{
+            position: relative;
+            span{
+                position: absolute;
+                right: -7px;
+                top: -3px;
+                font-size: 13px;
+                text-align: center;
+                width: 18px;
+                height: 18px;
+                border-radius:50% ;
+                -webkit-border-radius:50% ;
+                -moz-border-radius:50% ;
+                -ms-border-radius:50% ;
+                -o-border-radius:50% ;
+                background-color: rgb(236, 0, 0);
+                color: #fff;
+            }
+        }
+        svg{
+            cursor: pointer;
+            path{
+            fill:#6e6b7b
+            }
+        }
+        
+    }
+    .bars{
+        display: none;
+    }
+}
+.active{
+    background-color: none !important;
+}
+@media(max-width:768px){
+    nav{
+        left: 20px;
+        .bars{
+            display: block;
+        }
+    }
+}

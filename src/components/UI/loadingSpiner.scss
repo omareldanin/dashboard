@@ -1,0 +1,19 @@
+.over{
+    position: fixed;
+    z-index: 55566;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100vh ;
+    background-color: #00000073;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /*
+    Set the color of the icon
+  */
+  svg path,
+  svg rect{
+    fill: #090072;
+  }

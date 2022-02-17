@@ -1,0 +1,85 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  font-family: 'Playfair Display', serif !important;
+}
+html{
+  font-family: 'Playfair Display SC', serif;
+}
+body {
+  margin: 0;
+  background-color: #f1f1f1 !important;
+  color: #6e6b7b;
+  overflow-x: hidden;
+}
+.rtl{
+  .sidebar{
+    right: 0 ;
+    left: unset;
+  }
+  nav{
+    left: 20px;
+    right: 260px;
+    .adminName{
+      margin-left: 10px;
+    }
+  }
+  main{
+    left: 20px;
+    right: 260px;
+    .chat{
+      .chats{
+        border-right: none;
+        border-left: 1px solid #d8d8d8;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        .contactImage{
+          margin-left: 5px;
+        }
+      }
+    }
+    .chatform form button{
+      margin-right:5px ;
+    }
+    .citiesList .css-18lolh3-MuiDataGrid-root .MuiDataGrid-cell--textLeft {
+      padding-right: 20px;
+    }
+    .citiesList .search {
+      margin-right: 10px;
+    }
+    .chatroom .contactInfo{
+      direction: ltr;
+    }
+    .addCompany button{
+      float: left;
+    }
+  }
+  .msg{
+    .admin{
+      float: left;
+    }
+  }
+}
+button{
+  border: none;
+}
+button:focus{
+  outline: none;
+}
+@media(max-width:768px){
+  .rtl{
+    nav{
+      right: 20px;
+    }
+    main{
+      right: 20px;
+    }
+  }
+}
+@media(max-width:476px){
+ 
+}
